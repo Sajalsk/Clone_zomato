@@ -1,0 +1,30 @@
+.absolute-centre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max-width{
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.pointer
+{
+    cursor: pointer;
+}
+
+.collection-title
+{
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+
+.slick-next:before, .slick-prev:before
+{
+    color: gray;
+}
+
