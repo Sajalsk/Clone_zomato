@@ -24,8 +24,8 @@ const Homepage = () => {
 
 const getcorrectscreen=(tab)=>
 {
-     switch(tab)
-  {
+     switch(tab) {
+      
      case "Delivery":
      return <Delivery/>;
 
@@ -35,7 +35,7 @@ const getcorrectscreen=(tab)=>
     case "Nightlife":
       return <Night/>;
 
-     default:
+    default:
     return <Delivery/>
 
   };

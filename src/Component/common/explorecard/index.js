@@ -2,6 +2,7 @@ import React from "react";
 import "./explorecard.css";
 
 const ExploreCard = ({ restaurant, i }) => {
+  
   const name = restaurant?.info?.name ?? "";
   const coverImg =
     restaurant?.info?.image?.url ?? restaurant?.info?.o2FeaturedImage?.url;
