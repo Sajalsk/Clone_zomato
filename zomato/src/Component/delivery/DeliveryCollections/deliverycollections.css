@@ -1,0 +1,31 @@
+/* .delivery-collections
+{
+    background-color: white;
+    width: 100%;
+    padding: 40px 0px; 
+}
+
+
+.delivery-collections {
+    background-color: white;
+    width: 100%;
+    padding: 40px 0px;
+} */
+
+/* Media query for devices with a maximum width of 768 pixels */
+
+@media screen and (max-width: 768px) {
+    .delivery-collections {
+        padding: 20px 0px;
+    }
+}
+
+/* Media query for devices with a minimum width of 1200 pixels */
+
+@media screen and (min-width: 1200px) {
+    .delivery-collections {
+        padding: 60px 0px;
+    }
+}
+
+

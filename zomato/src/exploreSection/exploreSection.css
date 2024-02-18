@@ -1,0 +1,23 @@
+.explore-Section {
+    margin-top: 16px;
+}
+
+.explore-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Media query for devices with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+    .explore-grid {
+        justify-content: center;
+    }
+}
+
+/* Media query for devices with a minimum width of 1200 pixels */
+@media screen and (min-width: 1200px) {
+    .explore-grid {
+        justify-content: space-around;
+    }
+}

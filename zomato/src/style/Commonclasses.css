@@ -1,0 +1,44 @@
+/* Default styles for all devices */
+.absolute-centre {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max-width {
+    max-width: 1100px;
+    margin: 0px auto;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.collection-title {
+    font-size: 30px;
+    margin-bottom: 32px;
+    font-weight: 600;
+    color: var(--heading-text);
+}
+
+.slick-next:before, .slick-prev:before {
+    color: gray;
+}
+
+/* Media query for devices with a maximum width of 768 pixels */
+@media screen and (max-width: 768px) {
+    .collection-title {
+        font-size: 24px;
+        margin-bottom: 24px;
+    }
+}
+
+/* Media query for devices with a minimum width of 1200 pixels */
+@media screen and (min-width: 1200px) {
+    .collection-title {
+        font-size: 36px;
+        margin-bottom: 40px;
+    }
+}
+
+/* Additional media queries can be added as needed */
